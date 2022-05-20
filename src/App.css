@@ -23,7 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 12px 93px 35px 93px !important;
+  margin: 10px 93px 35px 93px !important;
   border-bottom: 1px solid var(--grayishblue);
 
 }
@@ -39,7 +39,7 @@ ul {
 }
 
 li {
-  margin-top: 13px;
+  margin-top: 15px;
   list-style-type: none;
   cursor: pointer;
   border-bottom: 30px solid transparent;
@@ -95,4 +95,8 @@ li:hover {
   cursor: pointer;
 
 
+}
+
+.hero {
+  display: flex;
 }
