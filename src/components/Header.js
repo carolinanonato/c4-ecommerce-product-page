@@ -8,18 +8,18 @@ function Header() {
     return (
         <nav>
             <div className="left">
-                <img src={logo} alt="" />
-                <ul>
-                    <li>Collections</li>
+                <img className="logo" src={logo} alt="" />
+                <ul className="menu-list">
+                    <li className="menu-item">Collections</li>
                     <li>Men</li>
-                    <li>Woman</li>
+                    <li>Women</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
             </div>
             <div className="right">
-                <img src={cart} alt="" />
-                <img src={avatar} alt="" />
+                <img className="img-cart" src={cart} alt="" />
+                <img className="img-avatar" src={avatar} alt="" />
             </div>
         </nav>
     )

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Kumbh Sans', sans-serif;
+
 }
 
 :root {
@@ -14,5 +15,84 @@
   --lightgrayishblue: hsl(223, 64%, 98%);
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 93px 35px 93px !important;
+  border-bottom: 1px solid var(--grayishblue);
+
+}
+
+.left {
+  display: flex;
+
+}
+
+ul {
+  display: flex;
+  gap: 18px;
+}
+
+li {
+  margin-top: 13px;
+  list-style-type: none;
+  cursor: pointer;
+  border-bottom: 30px solid transparent;
+
+}
+
+li:hover {
+  font-weight: bold;
+  border-bottom: 3px solid var(--orange);
+}
+
+
+.logo {
+  width: 80px;
+  height: 12px;
+  margin-top: 14px;
+}
+
+.menu-list {
+  font-size: 9px;
+  color: var(--darkgrayishblue);
+  margin-left: 30px;
+
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 18px;
+
+}
+
+.img-avatar {
+  width: 30px;
+  border: solid 2px transparent;
+  border-radius: 50%;
+}
+
+.img-cart {
+  width: 14px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.img-cart:hover {
+  color: red;
+}
+
+.img-avatar:hover {
+  border-radius: 50%;
+  border: 2px solid var(--orange);
+  cursor: pointer;
+
 
 }
