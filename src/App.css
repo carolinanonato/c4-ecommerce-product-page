@@ -99,4 +99,34 @@ li:hover {
 
 .hero {
   display: flex;
+  margin-left: 125px;
+  margin-top: 48px;
+  margin-bottom: 100px;
+}
+
+.main {
+  display: flex;
+}
+
+.main-img {
+  width: 252px;
+  height: 252px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.thumbs {
+  display: flex;
+  gap: 18px;
+  width: 252px;
+
+}
+
+.thumbs-img {
+  width: 50px;
+  border-radius: 8px;
+}
+
+.thumbs-img:hover {
+  opacity: 0.6;
 }

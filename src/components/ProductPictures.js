@@ -9,13 +9,13 @@ function ProductPictures() {
     return (
         <div className='product-images'>
             <div className="main">
-                <img src={imagemain} alt="" />
+                <img className="main-img" src={imagemain} alt="" />
             </div>
             <div className="thumbs">
-                <img src={thumb1} alt="" />
-                <img src={thumb2} alt="" />
-                <img src={thumb3} alt="" />
-                <img src={thumb4} alt="" />
+                <img className="thumbs-img" src={thumb1} alt="" />
+                <img className="thumbs-img" src={thumb2} alt="" />
+                <img className="thumbs-img" src={thumb3} alt="" />
+                <img className="thumbs-img" src={thumb4} alt="" />
             </div>
 
 
